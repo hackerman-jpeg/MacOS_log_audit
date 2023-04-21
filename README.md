@@ -24,7 +24,7 @@ Download the log analysis script and save it as log_analysis.sh:
 bash
 Copy code
 # Download the script from the GitHub repository
-curl -o log_analysis.sh https://raw.githubusercontent.com/yourusername/log-analysis-script/main/log_analysis.sh
+curl -o log_analysis.sh https://raw.githubusercontent.com/hackermnan.jpeg/log-analysis-script/main/log_analysis.sh
 
 # Make the script executable
 chmod +x log_analysis.sh
