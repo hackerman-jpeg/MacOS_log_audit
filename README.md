@@ -21,43 +21,43 @@ Bash shell (default shell in macOS).
 ## Usage
 
 Download the log analysis script and save it as log_analysis.sh:
-bash
-Copy code
+
+
 # Download the script from the GitHub repository
 ` git clone https://github.com/hackerman-jpeg/MacOS_log_audit.git`
 
 # Make the script executable
 chmod +x log_analysis.sh
+
 Run the script:
-bash
-Copy code
-./log_analysis.sh
+`./log_analysis.sh`
+
 Follow the prompts to select the time range and the number of threads to use for log analysis.
 The script will then process the logs and save the results in a file named audit_YYYY-MM-DD.txt.
 Open the output file to review the results:
-bash
-Copy code
-open audit_YYYY-MM-DD.txt
+
+`open audit_YYYY-MM-DD.txt`
 Replace YYYY-MM-DD with the current date.
 
-Customization
+## Customization
 
 You can customize the script by modifying the patterns array to include additional log patterns to search for. For example:
 
-bash
-Copy code
+```bash
 patterns=(
   "failed to authenticate user"
   "new custom pattern"
 )
-Contributing
+```
 
-We welcome contributions to improve this script. If you have ideas or suggestions, please submit an issue or a pull request on the GitHub repository.
+## Contributing
 
-License
+I welcome contributions to improve this script. If you have ideas or suggestions, please submit an issue or a pull request on the GitHub repository.
+
+## License
 
 This script is open-source software, licensed under the MIT License. For more information, please see the LICENSE file.
 
-Disclaimer
+## Disclaimer
 
-This script is provided "as is" without any warranties or guarantees. Use it at your own risk. The authors are not responsible for any damages or negative consequences arising from the use of this script.
+This script is provided "as is" without any warranties or guarantees. Use it at your own risk. The author is not responsible for any damages or negative consequences arising from the use of this script.
