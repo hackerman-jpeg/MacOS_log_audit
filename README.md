@@ -56,7 +56,7 @@ I welcome contributions to improve this script. If you have ideas or suggestions
 
 ## License
 
-This script is open-source software, licensed under the MIT License. For more information, please see the LICENSE file.
+This script is open-source software, for more information, please see the LICENSE file.
 
 ## Disclaimer
 
