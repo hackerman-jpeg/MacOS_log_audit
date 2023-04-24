@@ -13,8 +13,8 @@ This log analysis script scans your macOS logs for specific patterns, which may 
 
 To use this script, you need:
 
-macOS system with logs to analyze.
-Bash shell (default shell in macOS).
+- macOS system with logs to analyze.
+- Bash shell (default shell in macOS).
 `jq` installed.
 `parralel` installed.
 
